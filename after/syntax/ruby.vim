@@ -15,3 +15,6 @@ syntax region hereDocDashSQL matchgroup=Statement start=+<<[-~.]*\z(SQLDOC\)+  e
 syntax region hereDocDashShell matchgroup=Statement start=+<<[-~.]*\z(SHELLDOC\)+  end=+^\s*\z1+ contains=@SHELL
 
 syntax region hereDocDashShell matchgroup=Statement start=+<<[-~.]*\z(GRAPHQL\)+  end=+^\s*\z1+ contains=@GRAPHQL
+
+" Highlight block parameters in ruby
+hi def link rubyBlockParameter rubyIdentifier
