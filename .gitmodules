@@ -1,3 +1,0 @@
-[submodule "plugged/vim-figutive"]
-	path = plugged/vim-figutive
-	url = https://github.com/tpope/vim-fugitive
